@@ -3,7 +3,7 @@
 готовым конфигом на базе [airbnb](https://github.com/airbnb/javascript)
 
 ## Установка
-1. *npm install --save-dev Prom-ua/eslint-config-uaprom#v1.0*
+1. *npm install --save-dev Prom-ua/eslint-config-uaprom#1.0.0*
 2. *echo "{"extends": "uaprom"}' > .eslintrc*
 
 ## Разработка
