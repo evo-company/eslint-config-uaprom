@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-uaprom",
+  "version": "1.0.0",
+  "description": "Репозиторий с eslintrc конфигом и инструкцией подключения к другим проектам",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prom-ua/eslint-config-uaprom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prom-ua/eslint-config-uaprom/issues"
+  },
+  "homepage": "https://github.com/Prom-ua/eslint-config-uaprom#readme",
+  "dependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.12.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.4.2",
+    "eslint-plugin-react": "^5.1.1"
+  }
+}
