@@ -1,9 +1,9 @@
-# eslint-config-uaprom
+# eslint-config-uaprom (1.0.0)
 Репозиторий c инструкцией подключения к другим проектам и 
 готовым конфигом на базе [airbnb](https://github.com/airbnb/javascript)
 
 ## Установка
-1. *npm install --save-dev Prom-ua/eslint-config-uaprom#1.0.0*
+1. *npm install --save-dev prom-ua/eslint-config-uaprom#1.0.0*
 2. *echo "{"extends": "uaprom"}' > .eslintrc*
 
 ## Разработка
@@ -18,5 +18,5 @@
     git push origin <tagname>
     ```
     
-4. Обновлям версию в README в секции "Установка".
+4. Обновлям версию в *README* в секции "Установка".
 
