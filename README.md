@@ -4,7 +4,7 @@
 
 ## Установка
 1. *npm install --save-dev https://github.com/Prom-ua/eslint-config-uaprom/archive/1.0.0.tar.gz*
-2. *echo "{"extends": "uaprom"}' > .eslintrc*
+2. *echo '{"extends": "uaprom"}' > .eslintrc*
 
 ## Настройка для webpack для нового проекта
 1. npm install --save-dev eslint-loader
