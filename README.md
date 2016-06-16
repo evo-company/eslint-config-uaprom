@@ -6,6 +6,10 @@
 1. *npm install --save-dev https://github.com/Prom-ua/eslint-config-uaprom/archive/1.0.0.tar.gz*
 2. *echo "{"extends": "uaprom"}' > .eslintrc*
 
+## Настройка для webpack для нового проекта
+1. npm install --save-dev eslint-loader
+2. Добавляем eslint-loader как показано на инструкции [https://github.com/MoOx/eslint-loader](https://github.com/MoOx/eslint-loader)
+
 ## Разработка
 Если вы хотите внести изменение в существующий конфиг это можно сделать так:
 
