@@ -1,10 +1,10 @@
-# eslint-config-uaprom (1.0.0)
+# eslint-config-uaprom
 Репозиторий c инструкцией подключения к другим проектам и 
 готовым конфигом на базе [airbnb](https://github.com/airbnb/javascript)
 
 ## Установка
-1. *npm install --save-dev https://github.com/Prom-ua/eslint-config-uaprom/archive/1.0.0.tar.gz*
-2. *echo '{"extends": "uaprom"}' > .eslintrc*
+1. *npm install --save-dev @evo/eslint-config-uaprom*
+2. *echo "{"extends": "@evo/eslint-config-uaprom"}' > .eslintrc*
 
 ## Настройка для webpack для нового проекта
 1. npm install --save-dev eslint-loader
@@ -15,12 +15,5 @@
 
 1. Создать PR c изменениями (дождаться review).
 2. После подтверждения изменений сделать merge в мастер.
-3. Создать новый release tag в master ветке.
-
-    ```
-    git tag -a <tagname> -m "коротко об изменениях"
-    git push origin <tagname>
-    ```
-    
-4. Обновлям версию в *README* в секции "Установка".
+3. Опубликовать пакет на npm (для этого вы должны быть добавлены в организацию evo на npm - [https://www.npmjs.com/org/evo](https://www.npmjs.com/org/evo))
 
