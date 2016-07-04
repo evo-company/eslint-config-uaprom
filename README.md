@@ -4,7 +4,7 @@
 
 ## Установка
 1. *npm install --save-dev @evo/eslint-config-uaprom*
-2. *echo "{"extends": "@evo/eslint-config-uaprom"}' > .eslintrc*
+2. *echo '{"extends": "@evo/eslint-config-uaprom"}' > .eslintrc*
 
 ## Настройка для webpack для нового проекта
 1. npm install --save-dev eslint-loader
