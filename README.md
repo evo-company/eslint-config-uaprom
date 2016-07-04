@@ -2,7 +2,7 @@
 Репозиторий c инструкцией подключения к другим проектам и 
 готовым конфигом на базе [airbnb](https://github.com/airbnb/javascript)
 
-## Установка
+## Добавление lint-а в новый проект
 1. *npm install --save-dev @evo/eslint-config-uaprom*
 2. *echo '{"extends": "@evo/eslint-config-uaprom"}' > .eslintrc*
 
