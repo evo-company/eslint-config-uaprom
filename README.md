@@ -3,8 +3,8 @@
 готовым конфигом на базе [airbnb](https://github.com/airbnb/javascript)
 
 ## Установка
-1. *npm install npm install --save-dev @evo/eslint-config-uaprom eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint*
-2. *echo "{"extends": "@evo/eslint-config-uaprom"}' > .eslintrc*
+1. *npm install --save-dev @evo/eslint-config-uaprom*
+2. *echo '{"extends": "@evo/eslint-config-uaprom"}' > .eslintrc*
 
 ## Настройка для webpack для нового проекта
 1. npm install --save-dev eslint-loader
