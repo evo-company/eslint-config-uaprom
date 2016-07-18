@@ -1,6 +1,6 @@
 {
   "name": "@evo/eslint-config-uaprom",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Репозиторий c инструкцией подключения к другим проектам и  готовым конфигом на базе [airbnb](https://github.com/airbnb/javascript)",
   "main": "index.js",
   "dependencies": {
