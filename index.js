@@ -25,6 +25,8 @@ module.exports = {
         'import/no-unresolved': 0,
         'arrow-body-style': 0,
         'no-param-reassign': 0,
-        'no-empty-pattern': 0
+        'no-empty-pattern': 0,
+        "no-duplicate-imports": 0,
+        "import/no-duplicates": 2
     }
 };
