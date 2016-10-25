@@ -14,7 +14,7 @@
 ```
 ### Шаг 2. (Добавляем в eslintrc)
 ```bash
-echo '{"extends": "@evo/eslint-config-uaprom"}' > .eslintrc*
+echo '{"extends": "@evo/eslint-config-uaprom"}' > .eslintrc
 ```
 
 ## Настройка для webpack для нового проекта
