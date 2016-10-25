@@ -3,14 +3,19 @@
 готовым конфигом на базе [airbnb](https://github.com/airbnb/javascript)
 
 ## Установка
-1. 
-```
+
+### Шаг 1. (ставим eslint config и peer deps):
+
+```bash
 (
   export PKG=@evo/eslint-config-uaprom;
   npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
 )
 ```
-2. *echo '{"extends": "@evo/eslint-config-uaprom"}' > .eslintrc*
+### Шаг 2. (Добавляем в eslintrc)
+```bash
+*echo '{"extends": "@evo/eslint-config-uaprom"}' > .eslintrc*
+```
 
 ## Настройка для webpack для нового проекта
 1. npm install --save-dev eslint-loader
