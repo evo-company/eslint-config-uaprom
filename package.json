@@ -1,17 +1,11 @@
 {
   "name": "@evo/eslint-config-uaprom",
-  "version": "1.1.0",
-  "description": "Репозиторий c инструкцией подключения к другим проектам и  готовым конфигом на базе [airbnb](https://github.com/airbnb/javascript)",
+  "version": "2.0.0",
+  "description": "Репозиторий c инструкцией подключения к другим проектам и готовым конфигом на базе [airbnb](https://github.com/airbnb/javascript)",
   "main": "index.js",
   "dependencies": {
     "babel-eslint": "^6.1.2",
-    "eslint-config-airbnb": "^9.0.1"
-  },
-  "peerDependencies": {
-    "eslint": "^2.12.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^1.4.2",
-    "eslint-plugin-react": "^5.1.1"
+    "eslint-config-airbnb": "^14.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -19,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Prom-ua/eslint-config-uaprom.git"
+    "url": "git+https://github.com/evo-company/eslint-config-uaprom.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Prom-ua/eslint-config-uaprom/issues"
+    "url": "https://github.com/evo-company/eslint-config-uaprom/issues"
   },
-  "homepage": "https://github.com/Prom-ua/eslint-config-uaprom#readme"
+  "homepage": "https://github.com/evo-companya/eslint-config-uaprom#readme"
 }
