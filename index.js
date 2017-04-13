@@ -28,6 +28,7 @@ module.exports = {
         'no-empty-pattern': 0,
         "no-duplicate-imports": 0,
         "import/no-duplicates": 2,
-        "import/no-commonjs": 2
+        "import/no-commonjs": 2,
+        "import/extensions": 0,
     }
 };
