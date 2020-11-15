@@ -4,7 +4,7 @@
   "description": "Репозиторий c инструкцией подключения к другим проектам и готовым конфигом на базе [airbnb](https://github.com/airbnb/javascript)",
   "main": "index.js",
   "dependencies": {
-    "babel-eslint": "^6.1.2",
+    "babel-eslint": "10.1.0",
     "eslint-config-airbnb": "^14.1"
   },
   "devDependencies": {},
